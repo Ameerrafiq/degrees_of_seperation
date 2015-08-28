@@ -5,6 +5,7 @@ import (
 	"os"
 )
 
+//StartServer function to fetch Actor details and checking cmd line arguments
 func StartServer() {
 	var actor1 string
 	var actor2 string

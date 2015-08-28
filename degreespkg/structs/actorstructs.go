@@ -1,5 +1,6 @@
 package structs
 
+//structs to define json format for actor
 type ActorMoviesList struct {
 	Url    string       `json:"url,omitempty"`
 	Type   string       `json:"type,omitempty"`

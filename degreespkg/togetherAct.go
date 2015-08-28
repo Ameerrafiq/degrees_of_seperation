@@ -2,13 +2,10 @@ package degreespkg
 
 import (
 	"degreespkg/structs"
-	//"encoding/json"
 	"fmt"
-	//"io/ioutil"
-	//"net/http"
-	//"sync"
 )
 
+//CheckTogetherAct function to check whether they have relation within a film and returns bool value
 func CheckTogetherAct(Actor1Obj structs.ActorMoviesList, Actor2Obj structs.ActorMoviesList) bool {
 	//defer wg.Done()
 	degreeCount := 1

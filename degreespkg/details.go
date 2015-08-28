@@ -8,6 +8,7 @@ import (
 	"net/http"
 )
 
+//FetchActorDetails function to fetch actor details and umarshals json data
 func FetchActorDetails(actor1 string, actor2 string) error {
 	var actTogether bool
 	noerr := 1
@@ -44,6 +45,7 @@ func FetchActorDetails(actor1 string, actor2 string) error {
 	return nil
 }
 
+//FetchDetails function to fetch actor details via moviebuff url and returns byte data
 func FetchDetails(actor string) []byte {
 	baseUrl := "http://data.moviebuff.com/"
 	baseUrl += actor
