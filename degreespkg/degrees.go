@@ -8,6 +8,7 @@ import (
 	"net/http"
 )
 
+//FetchMovieDetails function to fetch movie details for an actor and unmarshals json data
 func FetchMovieDetails(Actor1Obj structs.ActorMoviesList, Actor2Obj structs.ActorMoviesList) {
 	fmt.Println("\n\t##########################################################")
 	fmt.Println("\n\t\tThey have not worked together in a film yet\n")
@@ -91,6 +92,7 @@ endofsearch:
 end:
 }
 
+//FetchDetails function to fetch movie details via moviebuff url and returns byte data
 func MovieDetails(movie string) []byte {
 	baseUrl := "http://data.moviebuff.com/"
 	baseUrl += movie
