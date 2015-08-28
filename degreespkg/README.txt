@@ -8,4 +8,6 @@ I didnt attempt to scrape the moviebuff website
 
 Handled error case and tried to find low degree of separation with logic
 
+See sample_IO.txt file to preview the Input and Output for this code
+
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
